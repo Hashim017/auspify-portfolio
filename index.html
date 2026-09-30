@@ -1,164 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Hashim | Portfolio</title>
+  <title>Muhammad Hashim | Full-Stack Engineer</title>
+  <meta name="description"
+    content="Portfolio of Muhammad Hashim, a full-stack engineer open to MERN, Next.js, and C# and .NET internships and roles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
   <header class="header">
     <nav class="nav container">
-      <a href="#home" class="logo">Hashim</a>
-      <button class="menu-btn" id="menuBtn">☰</button>
+      <a href="#home" class="logo">Hashim<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-        <section id="home" class="section container hero">
-      <div class="hero-content">
-        <p class="hero-hello">Hello, I am</p>
-        <h1 class="hero-name">Muhammad Hashim</h1>
-        <h2 class="hero-role">CS Student and Full-Stack Developer</h2>
-        <p class="hero-text">
-          I build web apps that are clean, fast, and easy to use.
-          Take a look at my work below.
+
+    <!-- HOME -->
+    <section id="home" class="hero container">
+      <div class="hero-text reveal">
+        <span class="badge">● Open to work</span>
+        <h1>Hi, I am <span class="gradient">Muhammad Hashim</span></h1>
+        <h2>Full-Stack Engineer</h2>
         </p>
+
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">View Projects</a>
           <a href="#contact" class="btn btn-outline">Contact Me</a>
         </div>
       </div>
-    </section>
 
-        <section id="about" class="section container">
-      <h2 class="section-title">About Me</h2>
-
-      <div class="about-content">
-        <p>
-          I am a Computer Science student at UET Lahore. I like building
-          full-stack web apps. I work with C# and ASP.NET Core, and I also
-          use HTML, CSS, and JavaScript for the front end.
-        </p>
-        <p>
-          I want to grow as a developer and build software that solves
-          real problems.
-        </p>
-
-        <h3 class="skills-title">Skills</h3>
-        <ul class="skills">
-          <li>C#</li>
-          <li>ASP.NET Core MVC</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>SQL Server</li>
-          <li>Git and GitHub</li>
-        </ul>
+      <div class="hero-card reveal">
+        <div class="avatar">MH</div>
+        <div class="stats">
+          <div><strong>3.52</strong><span>CGPA at UET Lahore</span></div>
+          <div><strong>8</strong><span>Projects built</span></div>
+          <div><strong>4</strong><span>HackerRank certificates</span></div>
+        </div>
       </div>
     </section>
 
-            <section id="projects" class="section container">
-      <h2 class="section-title">Projects</h2>
+    <!-- ABOUT -->
+    <section id="about" class="section alt">
+      <div class="container">
+        <p class="eyebrow">About me</p>
+        <h2 class="section-title">I build complete apps, from database to screen</h2>
 
-      <div class="project-grid">
-
-        <article class="project-card">
-          <h3>MedCore</h3>
-          <p>A clinic and health record management system for patients, doctors, and staff.</p>
-          <ul class="tags">
-            <li>ASP.NET Core MVC</li>
-            <li>C#</li>
-            <li>SQL Server</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/Hashim017/MedCore" target="_blank">GitHub</a>
-            <a href="#" target="_blank">Live Demo</a>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I hold a Computer Science degree from UET Lahore. I build
+              multi-role systems with secure login, clean database design,
+              and real-time updates.
+            </p>
+            <p>
+              On the .NET side, I use ASP.NET Core MVC, EF Core, SQL Server,
+              and SignalR. On the JavaScript side, I use Next.js, React,
+              Node.js, Prisma, and Socket.io.
+            </p>
+            <p>
+              I also worked on AI. My final year project used an LLM to make
+              smart URL aliases and an LSTM model to suggest domain names.
+            </p>
+            <p>
+            <p>
+              I am open to internships and full-time roles in both MERN and
+              Next.js development and C# and .NET development. I want to grow
+              with a strong team and build software that helps real people.
+            </p>
+            </p>
           </div>
-        </article>
 
-        <article class="project-card">
-          <h3>RxIntel</h3>
-          <p>A drug interaction checker that gives clear risk summaries made by AI.</p>
-          <ul class="tags">
-            <li>ASP.NET Core MVC</li>
-            <li>C#</li>
-            <li>AI API</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/Hashim017/RxIntel" target="_blank">GitHub</a>
-            <a href="#" target="_blank">Live Demo</a>
+          <div class="skill-groups reveal">
+            <div class="skill-group">
+              <h3>Education</h3>
+              <p class="edu-title">Bachelor of Computer Science</p>
+              <p class="edu-meta">UET Lahore, 2022 to 2026</p>
+              <p class="edu-meta">CGPA 3.52 out of 4.0</p>
+              <p class="edu-meta">FYP: NanoLink, an AI-powered URL management and analytics system. I worked on it in a
+                team of 4 as the Full Stack and AI/ML engineer.</p>
+            </div>
+            <div class="skill-group">
+              <h3>Certifications</h3>
+              <ul class="cert-list">
+                <li>Node.js, HackerRank, 2024</li>
+                <li>React, HackerRank, 2025</li>
+                <li>JavaScript, HackerRank, 2024</li>
+                <li>SQL Advanced, HackerRank, 2024</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <ul>
+                <li>Urdu: native</li>
+                <li>English: professional</li>
+              </ul>
+            </div>
           </div>
-        </article>
-
-        <article class="project-card">
-          <h3>SwiftDesk</h3>
-          <p>A helpdesk app where users create support tickets and agents resolve them.</p>
-          <ul class="tags">
-            <li>ASP.NET Core MVC</li>
-            <li>C#</li>
-            <li>SQL Server</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/Hashim017/SwiftDesk" target="_blank">GitHub</a>
-            <a href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <h3>SkillConnect</h3>
-          <p>A freelance marketplace with client and freelancer roles and real-time chat.</p>
-          <ul class="tags">
-            <li>Next.js</li>
-            <li>JavaScript</li>
-            <li>MongoDB</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/Hashim017/SkillConnect" target="_blank">GitHub</a>
-            <a href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-
+        </div>
       </div>
     </section>
 
-        <section id="contact" class="section container">
-      <h2 class="section-title">Contact</h2>
-      <p class="contact-intro">Have a question or a job offer? Send me a message.</p>
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="eyebrow">Tech stack</p>
+        <h2 class="section-title">Technologies I work with</h2>
 
-      <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit" class="btn btn-primary">Send Message</button>
-        <p id="formStatus" class="form-status"></p>
-      </form>
-
-      <ul class="contact-links">
-        <li><a href="mailto:your-email@example.com">your-email@example.com</a></li>
-        <li><a href="https://github.com/Hashim017" target="_blank">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
-      </ul>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Languages</h3>
+            <ul>
+              <li>C#</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>.NET Backend</h3>
+            <ul>
+              <li>ASP.NET Core MVC</li>
+              <li>ASP.NET Core Identity</li>
+              <li>EF Core</li>
+              <li>SignalR</li>
+              <li>Minimal APIs</li>
+              <li>Razor Views</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Node Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Laravel</li>
+              <li>REST APIs</li>
+              <li>Socket.io</li>
+              <li>JWT</li>
+              <li>OAuth 2.0</li>
+              <li>NextAuth v5</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>Next.js</li>
+              <li>React 19</li>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap 5</li>
+              <li>Framer Motion</li>
+              <li>TanStack Query v5</li>
+              <li>Recharts</li>
+              <li>Quill</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Databases</h3>
+            <ul>
+              <li>SQL Server</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>Prisma ORM</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>AI and ML</h3>
+            <ul>
+              <li>TensorFlow</li>
+              <li>Keras</li>
+              <li>scikit-learn</li>
+              <li>MediaPipe</li>
+              <li>OpenCV</li>
+              <li>NumPy</li>
+              <li>Pandas</li>
+              <li>Groq API</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Architecture</h3>
+            <ul>
+              <li>3-Tier</li>
+              <li>Repository Pattern</li>
+              <li>Clean Architecture</li>
+              <li>Service Layer</li>
+              <li>OOP Design Patterns</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Visual Studio</li>
+              <li>Vercel</li>
+              <li>Postman</li>
+              <li>Docker</li>
+              <li>ESLint</li>
+              <li>Pusher</li>
+              <li>Resend</li>
+              <li>UploadThing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <p class="eyebrow">My work</p>
+        <h2 class="section-title">Projects I have built</h2>
+
+        <div class="project-grid">
+
+          <article class="project-card reveal">
+            <span class="project-num">01</span>
+            <h3>MedCore</h3>
+            <p class="project-sub">Clinic management system</p>
+            <p>A multi-role system that helps a clinic manage patients, doctors, appointments, prescriptions, and bills.
+            </p>
+            <ul class="features">
+              <li>Admin, Doctor, and Receptionist dashboards with role-based access</li>
+              <li>Doctors can sign up and get a bookable profile at once</li>
+              <li>Slot conflict check stops double booking</li>
+              <li>Completed visits unlock prescriptions and billing</li>
+              <li>Dashboard with KPIs and server-side pagination</li>
+            </ul>
+            <ul class="tags">
+              <li>ASP.NET Core MVC</li>
+              <li>EF Core</li>
+              <li>SQL Server</li>
+              <li>Identity</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Hashim017/medcore-hms" target="_blank">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">02</span>
+            <h3>SwiftDesk</h3>
+            <p class="project-sub">Real-time support ticket platform</p>
+            <p>A helpdesk where ticket changes show up live on every dashboard without a page refresh.</p>
+            <ul class="features">
+              <li>Live updates with SignalR</li>
+              <li>Cookie login for the dashboard and JWT for the API</li>
+              <li>Background service escalates tickets that miss their SLA</li>
+              <li>Live SLA countdown on every ticket</li>
+              <li>Role-based status changes</li>
+            </ul>
+            <ul class="tags">
+              <li>ASP.NET Core MVC</li>
+              <li>SignalR</li>
+              <li>JWT</li>
+              <li>Minimal API</li>
+              <li>IHostedService</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Hashim017/swift-desk" target="_blank">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">03</span>
+            <h3>RxIntel</h3>
+            <p class="project-sub">AI-powered drug interaction checker</p>
+            <p>An app that checks medicines and explains interaction risks in plain English.</p>
+            <ul class="features">
+              <li>Medicine search with the RxNorm API</li>
+              <li>Official label data from OpenFDA</li>
+              <li>AI writes a simple risk summary for each interaction</li>
+              <li>Drug list that stays across searches, with duplicate check</li>
+              <li>Search history saved for each user with EF Core</li>
+            </ul>
+            <ul class="tags">
+              <li>ASP.NET Core MVC</li>
+              <li>EF Core</li>
+              <li>SQL Server</li>
+              <li>RxNorm</li>
+              <li>OpenFDA</li>
+              <li>Claude AI</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Hashim017/RxIntel" target="_blank">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">04</span>
+            <h3>SkillConnect</h3>
+            <p class="project-sub">Freelance marketplace</p>
+            <p>A platform with separate dashboards for freelancers and clients, built around a full order flow.</p>
+            <ul class="features">
+              <li>4-step sign up with a 6-digit OTP sent by email</li>
+              <li>Google login as another option</li>
+              <li>Live chat with a custom Socket.io server</li>
+              <li>Earnings charts and image uploads</li>
+              <li>Route protection with middleware</li>
+            </ul>
+            <ul class="tags">
+              <li>Next.js</li>
+              <li>Socket.io</li>
+              <li>Prisma</li>
+              <li>TanStack Query</li>
+              <li>OAuth</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://skill-connect-iota-smoky.vercel.app/" target="_blank" class="live">Live Demo</a>
+              <a href="https://github.com/Hashim017" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">05</span>
+            <h3>TaskFlow Pro</h3>
+            <p class="project-sub">Kanban project manager</p>
+            <p>A task app with 5 levels of data, from workspace down to comment.</p>
+            <ul class="features">
+              <li>Drag and drop cards with dnd-kit</li>
+              <li>Instant updates on screen before the server replies</li>
+              <li>12+ server actions for full CRUD</li>
+              <li>Task detail opens as a full page or a popup</li>
+              <li>Dark and light theme with a mobile sidebar</li>
+            </ul>
+            <ul class="tags">
+              <li>Next.js</li>
+              <li>Prisma</li>
+              <li>NextAuth v5</li>
+              <li>dnd-kit</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://taskflow-pro-9365.vercel.app/" target="_blank" class="live">Live Demo</a>
+              <a href="https://github.com/Hashim017" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">06</span>
+            <h3>NanoLink</h3>
+            <p class="project-sub">Final year project, AI URL platform</p>
+            <p>An AI-powered URL management and analytics system built in a team of 4.</p>
+            <ul class="features">
+              <li>Reads a web page and asks an LLaMA 3.1 model for 5 short link names and SEO tags</li>
+              <li>LSTM model trained to suggest domain names</li>
+              <li>Full pipeline from CSV data to model training</li>
+            </ul>
+            <ul class="tags">
+              <li>Next.js</li>
+              <li>Groq API</li>
+              <li>TensorFlow</li>
+              <li>Python</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Hashim017/ai-alias-generator" target="_blank">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">07</span>
+            <h3>Hand Gesture Recognition</h3>
+            <p class="project-sub">Computer vision system</p>
+            <p>Control media with hand gestures shown to a webcam.</p>
+            <ul class="features">
+              <li>4 phases: collect data, extract keypoints, train, run live</li>
+              <li>Random Forest model on MediaPipe keypoints</li>
+              <li>Live skeleton overlay mapped to media keys</li>
+            </ul>
+            <ul class="tags">
+              <li>Python</li>
+              <li>MediaPipe</li>
+              <li>OpenCV</li>
+              <li>scikit-learn</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Hashim017/Hand_Gesture_Recognition_System" target="_blank">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="project-num">08</span>
+            <h3>Real-Time Collaborative Text Editor</h3>
+            <p class="project-sub">Computer Networks final project</p>
+            <p>A text editor where many users edit the same document at once and see each other's changes live.</p>
+            <ul class="features">
+              <li>Live editing for many users with SignalR</li>
+              <li>Rich text: bold, italic, underline, and more with Quill</li>
+              <li>Login required, so only approved users can edit</li>
+              <li>Live notifications when someone changes the document</li>
+              <li>Simple and easy to use interface</li>
+            </ul>
+            <ul class="tags">
+              <li>ASP.NET Core</li>
+              <li>SignalR</li>
+              <li>Quill</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Hashim017/Real_Time_Collabrative_App" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="more-projects">
+          <a href="https://github.com/Hashim017?tab=repositories" target="_blank" class="btn btn-outline">See all repos
+            on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-wrap">
+        <div class="reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title">Let us work together</h2>
+          <p class="contact-intro">
+            I am open to MERN, Next.js, and C# and .NET internships and roles.
+            Send me a message and I will reply soon.
+          </p>
+          <ul class="contact-links">
+            <li><a href="mailto:chhashimi34@gmail.com">✉ chhashimi34@gmail.com</a></li>
+            <li><a href="https://github.com/Hashim017" target="_blank">⌥ github.com/Hashim017</a></li>
+            <li><a href="https://linkedin.com/in/muhammad-hashim017" target="_blank">in
+                linkedin.com/in/muhammad-hashim017</a></li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal" action="https://formspree.io/f/xyezovyb" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+
   </main>
 
   <footer class="footer">
-    <p>© 2026 Muhammad Hashim</p>
+    <p>© 2026 Muhammad Hashim. Built with ❤️.</p>
   </footer>
 
   <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,4 @@
+// Mobile menu
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
 
@@ -6,11 +7,25 @@ menuBtn.addEventListener("click", () => {
 });
 
 navLinks.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("open");
-  });
+  link.addEventListener("click", () => navLinks.classList.remove("open"));
 });
 
+// Scroll animation
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.15 }
+);
+
+document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+// Contact form
 const form = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 
