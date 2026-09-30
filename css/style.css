@@ -23,6 +23,14 @@ body {
 .section {
   min-height: 100vh;
   padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+#about,
+#contact {
+  background: #f9fafb;
+  box-shadow: 0 0 0 100vmax #f9fafb;
+  clip-path: inset(0 -100vmax);
 }
 
 /* Header and nav */
@@ -230,6 +238,75 @@ body {
 }
 
 .project-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+.contact-intro {
+  margin-bottom: 24px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.contact-form .btn {
+  cursor: pointer;
+  align-self: flex-start;
+  font-size: 1rem;
+}
+
+.form-status {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.form-status.success {
+  color: #15803d;
+}
+
+.form-status.error {
+  color: #b91c1c;
+}
+
+.contact-links {
+  list-style: none;
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-links a:hover {
   text-decoration: underline;
 }
 
