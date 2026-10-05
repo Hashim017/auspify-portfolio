@@ -40,28 +40,28 @@ This is my personal portfolio website. It introduces who I am, lists my skills a
 ### Portfolio Landing Page
 
 #### Dashboard
-<img src="docs/screenshots/dashboard.png" alt="Dashboard" width="600">
+<img src="docs/screenshots/dashboard.PNG" alt="Dashboard" width="600">
 
 #### About
-<img src="docs/screenshots/about.png" alt="About" width="600">
+<img src="docs/screenshots/about.PNG" alt="About" width="600">
 
 #### Skills
-<img src="docs/screenshots/skills.png" alt="Skills" width="600">
+<img src="docs/screenshots/skills.PNG" alt="Skills" width="600">
 
 #### Skills - Additional View
-<img src="docs/screenshots/skills2.png" alt="Skills 2" width="600">
+<img src="docs/screenshots/skills2.PNG" alt="Skills 2" width="600">
 
 #### Tech Stack
-<img src="docs/screenshots/tech-stack-mobile.png" alt="Tech Stack" width="600">
+<img src="docs/screenshots/tech-stack-mobile.PNG" alt="Tech Stack" width="600">
 
 #### Projects
-<img src="docs/screenshots/projects.png" alt="Projects" width="600">
+<img src="docs/screenshots/projects.PNG" alt="Projects" width="600">
 
 #### Projects - Additional View
-<img src="docs/screenshots/projects2.png" alt="Projects 2" width="600">
+<img src="docs/screenshots/projects2.PNG" alt="Projects 2" width="600">
 
 #### Contact
-<img src="docs/screenshots/contact.png" alt="Contact" width="600">
+<img src="docs/screenshots/contact.PNG" alt="Contact" width="600">
 
 
 ## Responsive Design
@@ -71,22 +71,22 @@ The portfolio is fully responsive and optimized for desktop, tablet, and mobile 
 ### Mobile Views
 
 #### Landing Page
-<img src="docs/screenshots/landing-page-mobile.png" alt="Landing Page Mobile" width="300">
+<img src="docs/screenshots/landing-page-mobile.jpg" alt="Landing Page Mobile" width="300">
 
 #### About
-<img src="docs/screenshots/about-mobile.png" alt="About Mobile" width="300">
+<img src="docs/screenshots/about-mobile.jpg" alt="About Mobile" width="300">
 
 #### Skills
-<img src="docs/screenshots/skills2-mobile.png" alt="Skills Mobile" width="300">
+<img src="docs/screenshots/skills2-mobile.jpg" alt="Skills Mobile" width="300">
 
 #### Tech Stack
-<img src="docs/screenshots/tech-stack-mobile.png" alt="Tech Stack Mobile" width="300">
+<img src="docs/screenshots/tech-stack-mobile.jpg" alt="Tech Stack Mobile" width="300">
 
 #### Projects
-<img src="docs/screenshots/projects-mobile.png" alt="Projects Mobile" width="300">
+<img src="docs/screenshots/projects-mobile.jpg" alt="Projects Mobile" width="300">
 
 #### Contact
-<img src="docs/screenshots/contact-mobile.png" alt="Contact Mobile" width="300">
+<img src="docs/screenshots/contact-mobile.jpg" alt="Contact Mobile" width="300">
 
 ## ⚙️ Getting Started
 
