@@ -51,9 +51,6 @@ This is my personal portfolio website. It introduces who I am, lists my skills a
 #### Skills - Additional View
 <img src="docs/screenshots/skills2.PNG" alt="Skills 2" width="600">
 
-#### Tech Stack
-<img src="docs/screenshots/tech-stack-mobile.PNG" alt="Tech Stack" width="600">
-
 #### Projects
 <img src="docs/screenshots/projects.PNG" alt="Projects" width="600">
 
@@ -75,9 +72,6 @@ The portfolio is fully responsive and optimized for desktop, tablet, and mobile 
 
 #### About
 <img src="docs/screenshots/about-mobile.jpg" alt="About Mobile" width="300">
-
-#### Skills
-<img src="docs/screenshots/skills2-mobile.jpg" alt="Skills Mobile" width="300">
 
 #### Tech Stack
 <img src="docs/screenshots/tech-stack-mobile.jpg" alt="Tech Stack Mobile" width="300">
